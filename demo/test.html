@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="container"></div>
+
+
+
+
+
+<script>
+let sprites = [];
+</script>
+
+<script src="./MatrixRenderer.js"></script>
+
+
+<link rel="stylesheet" href="../output/sprite-1.css"/>
+<script src="../output/sprite-1.js"></script>
+
+<script>
+
+
+// sprites[0] is imported by ./output/sprite-0.js
+let matrix = new MatrixRenderer(sprites[1]);
+
+matrix.render(document.querySelector('#container'));
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

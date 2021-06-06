@@ -1,0 +1,16 @@
+:root {
+  --pixel-size: 10px;
+}
+
+.row {
+  height: var(--pixel-size);
+}
+.pixel {
+  height: var(--pixel-size);
+  width: var(--pixel-size);
+  display: inline-block;
+}
+
+.pixel:hover {
+  background-color: #f0f;
+}
